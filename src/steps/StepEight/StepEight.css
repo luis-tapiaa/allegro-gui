@@ -1,0 +1,71 @@
+.enfoque {
+  max-width: 1000px;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.enfoque th,
+.enfoque td {
+  padding: 10px;
+}
+
+.enfoque-accion {
+  width: 25%;
+  text-align: center;
+}
+
+.controles {
+  max-width: 1000px;
+}
+
+.controles th,
+.controles td {
+  padding: 10px;
+}
+
+.control-header th {
+  background: rgba(0, 0, 0, 0.03);
+  font-weight: normal;
+  font-style: italic;
+}
+
+.controles .corner {
+  width: 25%;
+}
+
+.controles tr:focus-within .action-edit {
+  display: block;
+}
+
+.matriz-riesgo thead tr,
+.grupos-enfoque thead tr {
+  background: rgba(0, 0, 0, 0.03);
+}
+
+.matriz-riesgo {
+  margin-bottom: 20px;
+}
+
+.matriz-riesgo td,
+.matriz-riesgo th,
+.grupos-enfoque td,
+.grupos-enfoque th {
+  padding: 7px 10px;
+}
+
+.matriz-header {
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.03);
+}
+
+.g1 {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.g2 {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.g3 {
+  background: rgba(0, 0, 0, 0.03);
+}

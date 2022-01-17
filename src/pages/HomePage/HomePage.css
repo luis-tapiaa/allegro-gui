@@ -1,0 +1,33 @@
+.menu-left, .menu-center {
+  color: #fff;
+}
+
+.menu-left {
+  width: 150px;
+  font-size: 12px;
+}
+
+.bg-navigation {
+  height: 48px;
+  background-color: rgba(0,0,0,.03);
+  border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+footer {
+  justify-content: center;
+  padding: 10px 0 50px 0;
+  background: #343a40;
+  color: #fff;
+  display: flex !important;
+}
+
+footer div:last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+.nav-link {
+  text-transform: none;
+}

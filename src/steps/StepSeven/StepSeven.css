@@ -1,0 +1,30 @@
+.valores-impacto {
+  max-width: 1000px;
+}
+
+.valores-impacto th,
+.valores-impacto td {
+  padding: 10px;
+}
+
+.gravedad {
+  max-width: 1000px;
+}
+
+.gravedad th,
+.gravedad td {
+  padding: 10px;
+}
+
+.td-hidden {
+  border: none;
+  font-weight: bold;
+}
+
+.gravedad tbody {
+  text-align: center;
+}
+
+.gravedad tr td:nth-child(1) {
+  text-align: left;
+}

@@ -1,0 +1,9 @@
+.card-group {
+  padding: 20px;
+  min-height: calc(100vh - 104px);
+}
+
+.card-body .card {
+  margin-bottom: 20px;
+  cursor: pointer;
+}

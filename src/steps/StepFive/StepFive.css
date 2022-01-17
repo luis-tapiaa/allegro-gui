@@ -1,0 +1,46 @@
+.cuestionario {
+  margin-top: 20px;
+  max-width: 1000px;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.cuestionario th,
+.cuestionario td {
+  padding: 7px 10px;
+}
+
+.cuestionario-desc {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.escenario {
+  background: rgba(0, 0, 0, 0.03);
+}
+
+.escenario div:first-child {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.escenario div {
+  font-weight: normal;
+}
+
+.escenario ul {
+  padding-left: 20px;
+  margin-bottom: 0px;
+}
+
+.respuesta-check {
+  font-weight: bold;
+  text-align: center;
+}
+
+.respuesta-check input {
+  margin-right: 7px;
+}
+
+.respuesta-check label {
+  margin-bottom: 0px;
+}

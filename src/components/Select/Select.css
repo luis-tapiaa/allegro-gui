@@ -1,0 +1,34 @@
+.select-container {
+  position: relative;
+}
+
+.select-container .select-tooltip {
+  visibility: hidden;  
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  text-align: center;
+  font-weight: normal;
+  border-radius: 6px;
+  padding: 7px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;  
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.select-container .select-tooltip::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.8) transparent transparent transparent;
+}
+
+.select-container:hover .select-tooltip {
+  visibility: visible;
+  opacity: 1;
+}

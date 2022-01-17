@@ -1,0 +1,24 @@
+.text-autosize {
+  resize: none;
+  box-sizing: border-box;
+}
+
+.text-autosize::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+.text-autosize::-webkit-scrollbar-track {
+  background: #eee;
+}
+ 
+/* Handle */
+.text-autosize::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+.text-autosize::-webkit-scrollbar-thumb:hover {  
+  background: #555; 
+}

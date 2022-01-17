@@ -1,0 +1,17 @@
+.consecuencias-list {
+  max-width: 1000px;
+}
+
+.consecuencias-list th,
+.consecuencias-list td {
+  padding: 10px;
+}
+
+.consecuencias-list tr td:last-child {
+  width: 63px;
+  max-width: 63px;
+}
+
+.consecuencias-list tr:focus-within .action-edit {
+  display: block;
+}

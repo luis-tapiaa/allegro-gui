@@ -1,0 +1,17 @@
+.tab-header th div:last-child {
+  font-weight: normal;
+  font-style: italic;
+}
+
+.tab-header th {
+  text-align: left !important;
+}
+
+.radio-req {
+  width: 25%;
+  text-align: center;
+}
+
+.s2-a2-row {
+  cursor: default;
+}

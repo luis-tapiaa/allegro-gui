@@ -1,0 +1,66 @@
+.editable-list {
+  width: 400px;
+}
+
+.editable-list,
+.editable-list th,
+.editable-list td {
+  border: none;
+}
+
+.editable-list tr {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.editable-list tr td:last-child {
+  width: 63px;
+  max-width: 63px;
+}
+
+.editable-list td {
+  padding: 7px;
+}
+
+.editable-actions {
+  height: 20px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.editable-actions button {
+  margin-left: 10px;
+  padding: 0;
+  background: transparent;
+  border: none;
+  height: 20px;
+}
+
+.editable-item {
+  outline: none;
+  border: none;
+  width: 100%;
+}
+
+.action-edit {
+  display: none;
+}
+
+.editable-list tr:focus-within .action-edit {
+  display: block;
+}
+
+.editable-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.editable-header {
+  background: rgba(0, 0, 0, 0.03);
+}
+
+.editable-header th {
+  text-align: center;
+  padding: 7px;
+}

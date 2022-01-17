@@ -1,0 +1,37 @@
+.contenedores {
+  width: 100%;
+}
+
+.contenedores tr:focus-within .action-edit {
+  display: block;
+}
+
+.contenedores td {
+  padding: 7px;
+}
+
+.contenedores tr td:last-child {
+  width: 63px;
+  max-width: 63px;
+}
+
+.contenedores tr:hover .editable-actions button .icon {
+  opacity: 0.4;
+}
+
+.contenedores tbody tr td:nth-child(3) {
+  background: rgb(0, 0, 0, 0.03);
+  width: 30%;
+}
+
+.contenedores tbody tr td:nth-child(1) {
+  width: 20%;
+}
+
+.contenedores tbody tr td:nth-child(3) textarea {
+  background: transparent;
+}
+
+.contenedores th {
+  text-align: center !important;
+}

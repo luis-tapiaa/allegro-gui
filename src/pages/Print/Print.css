@@ -1,0 +1,10 @@
+.print-list {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.print-list label {
+  margin-bottom: 0;
+  margin-left: 10px;
+}

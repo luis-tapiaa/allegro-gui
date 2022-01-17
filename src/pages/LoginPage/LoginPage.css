@@ -1,0 +1,43 @@
+.login {
+  background: #343a40;
+  min-height: 100vh;
+  background: linear-gradient(0deg, rgba(52, 58, 64, 0.7), rgba(52, 58, 64, 0.7)),
+    url(https://i1.wp.com/noticieros.televisa.com/wp-content/uploads/2019/02/ciudad-universitaria.jpg?resize=1184%2C720&ssl=1);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-form .form-control {
+  margin-bottom: 12px;
+}
+
+.login-form {
+  background: #fafafa;
+  padding: 40px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-form h1 {
+  display: block;
+  text-align: center;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+
+.login-error {
+  color: red;
+  margin-top: 12px;
+  text-align: center;
+}
+
+.login-link {
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+}

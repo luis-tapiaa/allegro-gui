@@ -1,0 +1,57 @@
+.select-activo {
+  padding: 10px;
+}
+
+.list-large {
+  width: 500px;
+}
+
+.select-activo select {
+  border: none;
+  outline: none;
+  width: 100%;
+  cursor: pointer;
+}
+
+.area-title {
+  cursor: default;
+  width: 20%;
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.area-vertical {
+  cursor: default;
+  max-width: 30px !important;
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.rotate-text {
+  transform: rotate(-90deg);
+}
+
+.area-header {
+  cursor: default;
+  width: 35%;
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.03);
+}
+
+.area-header div:last-child {
+  font-weight: normal;
+  font-style: italic;
+}
+
+.preocupacion th,
+.preocupacion td {
+  padding: 10px;
+}
+
+.preocupacion {
+  max-width: 1000px;
+}
+
+.res-check input {
+  margin-right: 7px;
+}
